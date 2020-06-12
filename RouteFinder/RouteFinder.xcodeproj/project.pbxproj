@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2812E1D31EC85F9F005FE9BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2812E1D21EC85F9F005FE9BC /* AppDelegate.swift */; };
+		2812E1D51EC85F9F005FE9BC /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2812E1D41EC85F9F005FE9BC /* Map.swift */; };
+		2812E1D81EC85F9F005FE9BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2812E1D61EC85F9F005FE9BC /* Main.storyboard */; };
+		2812E1DD1EC85F9F005FE9BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2812E1DB1EC85F9F005FE9BC /* LaunchScreen.storyboard */; };
+		2812E1E81EC85F9F005FE9BC /* RouteFinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2812E1E71EC85F9F005FE9BC /* RouteFinderTests.swift */; };
+		2812E1F31EC85F9F005FE9BC /* RouteFinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2812E1F21EC85F9F005FE9BC /* RouteFinderUITests.swift */; };
+		2812E2021EC893E2005FE9BC /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2812E2011EC893E2005FE9BC /* MapKit.framework */; };
+		285E64D91ECCA13000F5279C /* RoutesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285E64D81ECCA13000F5279C /* RoutesTableViewCell.swift */; };
+		285E64DD1ECCB0FE00F5279C /* RoutesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285E64DC1ECCB0FE00F5279C /* RoutesTableViewController.swift */; };
+		285E64DF1ECCB20E00F5279C /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285E64DE1ECCB20E00F5279C /* Route.swift */; };
+		285E64E11ECCC0A900F5279C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285E64E01ECCC0A800F5279C /* ViewController.swift */; };
+		286D6A331ED1A87900494F23 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286D6A321ED1A87900494F23 /* FirstViewController.swift */; };
+		286D6A371ED1C91B00494F23 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 286D6A361ED1C91B00494F23 /* Images.xcassets */; };
+		2880793D1ECA3082000F9A77 /* newMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2880793C1ECA3082000F9A77 /* newMap.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2812E1E41EC85F9F005FE9BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2812E1C71EC85F9F005FE9BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2812E1CE1EC85F9F005FE9BC;
+			remoteInfo = RouteFinder;
+		};
+		2812E1EF1EC85F9F005FE9BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2812E1C71EC85F9F005FE9BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2812E1CE1EC85F9F005FE9BC;
+			remoteInfo = RouteFinder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2812E1CF1EC85F9F005FE9BC /* RouteFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RouteFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2812E1D21EC85F9F005FE9BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2812E1D41EC85F9F005FE9BC /* Map.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Map.swift; sourceTree = "<group>"; };
+		2812E1D71EC85F9F005FE9BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2812E1DC1EC85F9F005FE9BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2812E1DE1EC85F9F005FE9BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2812E1E31EC85F9F005FE9BC /* RouteFinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RouteFinderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2812E1E71EC85F9F005FE9BC /* RouteFinderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteFinderTests.swift; sourceTree = "<group>"; };
+		2812E1E91EC85F9F005FE9BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2812E1EE1EC85F9F005FE9BC /* RouteFinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RouteFinderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2812E1F21EC85F9F005FE9BC /* RouteFinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteFinderUITests.swift; sourceTree = "<group>"; };
+		2812E1F41EC85F9F005FE9BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2812E2011EC893E2005FE9BC /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		285E64D81ECCA13000F5279C /* RoutesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoutesTableViewCell.swift; sourceTree = "<group>"; };
+		285E64DC1ECCB0FE00F5279C /* RoutesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoutesTableViewController.swift; sourceTree = "<group>"; };
+		285E64DE1ECCB20E00F5279C /* Route.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Route.swift; sourceTree = "<group>"; };
+		285E64E01ECCC0A800F5279C /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		286D6A321ED1A87900494F23 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		286D6A361ED1C91B00494F23 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2880793C1ECA3082000F9A77 /* newMap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = newMap.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2812E1CC1EC85F9F005FE9BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2812E2021EC893E2005FE9BC /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2812E1E01EC85F9F005FE9BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2812E1EB1EC85F9F005FE9BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2812E1C61EC85F9F005FE9BC = {
+			isa = PBXGroup;
+			children = (
+				2812E1D11EC85F9F005FE9BC /* RouteFinder */,
+				2812E1E61EC85F9F005FE9BC /* RouteFinderTests */,
+				2812E1F11EC85F9F005FE9BC /* RouteFinderUITests */,
+				2812E1D01EC85F9F005FE9BC /* Products */,
+				2812E2001EC893E2005FE9BC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2812E1D01EC85F9F005FE9BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2812E1CF1EC85F9F005FE9BC /* RouteFinder.app */,
+				2812E1E31EC85F9F005FE9BC /* RouteFinderTests.xctest */,
+				2812E1EE1EC85F9F005FE9BC /* RouteFinderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2812E1D11EC85F9F005FE9BC /* RouteFinder */ = {
+			isa = PBXGroup;
+			children = (
+				2812E1D21EC85F9F005FE9BC /* AppDelegate.swift */,
+				2880793C1ECA3082000F9A77 /* newMap.swift */,
+				2812E1D41EC85F9F005FE9BC /* Map.swift */,
+				2812E1D61EC85F9F005FE9BC /* Main.storyboard */,
+				286D6A321ED1A87900494F23 /* FirstViewController.swift */,
+				285E64D81ECCA13000F5279C /* RoutesTableViewCell.swift */,
+				285E64DC1ECCB0FE00F5279C /* RoutesTableViewController.swift */,
+				285E64DE1ECCB20E00F5279C /* Route.swift */,
+				285E64E01ECCC0A800F5279C /* ViewController.swift */,
+				2812E1DB1EC85F9F005FE9BC /* LaunchScreen.storyboard */,
+				286D6A361ED1C91B00494F23 /* Images.xcassets */,
+				2812E1DE1EC85F9F005FE9BC /* Info.plist */,
+			);
+			path = RouteFinder;
+			sourceTree = "<group>";
+		};
+		2812E1E61EC85F9F005FE9BC /* RouteFinderTests */ = {
+			isa = PBXGroup;
+			children = (
+				2812E1E71EC85F9F005FE9BC /* RouteFinderTests.swift */,
+				2812E1E91EC85F9F005FE9BC /* Info.plist */,
+			);
+			path = RouteFinderTests;
+			sourceTree = "<group>";
+		};
+		2812E1F11EC85F9F005FE9BC /* RouteFinderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2812E1F21EC85F9F005FE9BC /* RouteFinderUITests.swift */,
+				2812E1F41EC85F9F005FE9BC /* Info.plist */,
+			);
+			path = RouteFinderUITests;
+			sourceTree = "<group>";
+		};
+		2812E2001EC893E2005FE9BC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2812E2011EC893E2005FE9BC /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2812E1CE1EC85F9F005FE9BC /* RouteFinder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2812E1F71EC85F9F005FE9BC /* Build configuration list for PBXNativeTarget "RouteFinder" */;
+			buildPhases = (
+				2812E1CB1EC85F9F005FE9BC /* Sources */,
+				2812E1CC1EC85F9F005FE9BC /* Frameworks */,
+				2812E1CD1EC85F9F005FE9BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RouteFinder;
+			productName = RouteFinder;
+			productReference = 2812E1CF1EC85F9F005FE9BC /* RouteFinder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2812E1E21EC85F9F005FE9BC /* RouteFinderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2812E1FA1EC85F9F005FE9BC /* Build configuration list for PBXNativeTarget "RouteFinderTests" */;
+			buildPhases = (
+				2812E1DF1EC85F9F005FE9BC /* Sources */,
+				2812E1E01EC85F9F005FE9BC /* Frameworks */,
+				2812E1E11EC85F9F005FE9BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2812E1E51EC85F9F005FE9BC /* PBXTargetDependency */,
+			);
+			name = RouteFinderTests;
+			productName = RouteFinderTests;
+			productReference = 2812E1E31EC85F9F005FE9BC /* RouteFinderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2812E1ED1EC85F9F005FE9BC /* RouteFinderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2812E1FD1EC85F9F005FE9BC /* Build configuration list for PBXNativeTarget "RouteFinderUITests" */;
+			buildPhases = (
+				2812E1EA1EC85F9F005FE9BC /* Sources */,
+				2812E1EB1EC85F9F005FE9BC /* Frameworks */,
+				2812E1EC1EC85F9F005FE9BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2812E1F01EC85F9F005FE9BC /* PBXTargetDependency */,
+			);
+			name = RouteFinderUITests;
+			productName = RouteFinderUITests;
+			productReference = 2812E1EE1EC85F9F005FE9BC /* RouteFinderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2812E1C71EC85F9F005FE9BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Bucataru Cristian";
+				TargetAttributes = {
+					2812E1CE1EC85F9F005FE9BC = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 3JFK62976A;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					2812E1E21EC85F9F005FE9BC = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 3JFK62976A;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2812E1CE1EC85F9F005FE9BC;
+					};
+					2812E1ED1EC85F9F005FE9BC = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 3JFK62976A;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2812E1CE1EC85F9F005FE9BC;
+					};
+				};
+			};
+			buildConfigurationList = 2812E1CA1EC85F9F005FE9BC /* Build configuration list for PBXProject "RouteFinder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2812E1C61EC85F9F005FE9BC;
+			productRefGroup = 2812E1D01EC85F9F005FE9BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2812E1CE1EC85F9F005FE9BC /* RouteFinder */,
+				2812E1E21EC85F9F005FE9BC /* RouteFinderTests */,
+				2812E1ED1EC85F9F005FE9BC /* RouteFinderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2812E1CD1EC85F9F005FE9BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				286D6A371ED1C91B00494F23 /* Images.xcassets in Resources */,
+				2812E1DD1EC85F9F005FE9BC /* LaunchScreen.storyboard in Resources */,
+				2812E1D81EC85F9F005FE9BC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2812E1E11EC85F9F005FE9BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2812E1EC1EC85F9F005FE9BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2812E1CB1EC85F9F005FE9BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2812E1D51EC85F9F005FE9BC /* Map.swift in Sources */,
+				285E64D91ECCA13000F5279C /* RoutesTableViewCell.swift in Sources */,
+				285E64DD1ECCB0FE00F5279C /* RoutesTableViewController.swift in Sources */,
+				286D6A331ED1A87900494F23 /* FirstViewController.swift in Sources */,
+				2812E1D31EC85F9F005FE9BC /* AppDelegate.swift in Sources */,
+				285E64E11ECCC0A900F5279C /* ViewController.swift in Sources */,
+				285E64DF1ECCB20E00F5279C /* Route.swift in Sources */,
+				2880793D1ECA3082000F9A77 /* newMap.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2812E1DF1EC85F9F005FE9BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2812E1E81EC85F9F005FE9BC /* RouteFinderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2812E1EA1EC85F9F005FE9BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2812E1F31EC85F9F005FE9BC /* RouteFinderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2812E1E51EC85F9F005FE9BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2812E1CE1EC85F9F005FE9BC /* RouteFinder */;
+			targetProxy = 2812E1E41EC85F9F005FE9BC /* PBXContainerItemProxy */;
+		};
+		2812E1F01EC85F9F005FE9BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2812E1CE1EC85F9F005FE9BC /* RouteFinder */;
+			targetProxy = 2812E1EF1EC85F9F005FE9BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2812E1D61EC85F9F005FE9BC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2812E1D71EC85F9F005FE9BC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2812E1DB1EC85F9F005FE9BC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2812E1DC1EC85F9F005FE9BC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2812E1F51EC85F9F005FE9BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2812E1F61EC85F9F005FE9BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2812E1F81EC85F9F005FE9BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 3JFK62976A;
+				INFOPLIST_FILE = RouteFinder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cristibctr.RouteFinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2812E1F91EC85F9F005FE9BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 3JFK62976A;
+				INFOPLIST_FILE = RouteFinder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cristibctr.RouteFinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		2812E1FB1EC85F9F005FE9BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3JFK62976A;
+				INFOPLIST_FILE = RouteFinderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cristibctr.RouteFinderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RouteFinder.app/RouteFinder";
+			};
+			name = Debug;
+		};
+		2812E1FC1EC85F9F005FE9BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3JFK62976A;
+				INFOPLIST_FILE = RouteFinderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cristibctr.RouteFinderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RouteFinder.app/RouteFinder";
+			};
+			name = Release;
+		};
+		2812E1FE1EC85F9F005FE9BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 3JFK62976A;
+				INFOPLIST_FILE = RouteFinderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cristibctr.RouteFinderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = RouteFinder;
+			};
+			name = Debug;
+		};
+		2812E1FF1EC85F9F005FE9BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 3JFK62976A;
+				INFOPLIST_FILE = RouteFinderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cristibctr.RouteFinderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = RouteFinder;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2812E1CA1EC85F9F005FE9BC /* Build configuration list for PBXProject "RouteFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2812E1F51EC85F9F005FE9BC /* Debug */,
+				2812E1F61EC85F9F005FE9BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2812E1F71EC85F9F005FE9BC /* Build configuration list for PBXNativeTarget "RouteFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2812E1F81EC85F9F005FE9BC /* Debug */,
+				2812E1F91EC85F9F005FE9BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2812E1FA1EC85F9F005FE9BC /* Build configuration list for PBXNativeTarget "RouteFinderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2812E1FB1EC85F9F005FE9BC /* Debug */,
+				2812E1FC1EC85F9F005FE9BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2812E1FD1EC85F9F005FE9BC /* Build configuration list for PBXNativeTarget "RouteFinderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2812E1FE1EC85F9F005FE9BC /* Debug */,
+				2812E1FF1EC85F9F005FE9BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2812E1C71EC85F9F005FE9BC /* Project object */;
+}
